@@ -122,7 +122,7 @@ echo str_repeat('</ul></li>', $item->level_diff);
 else {
 if($item->level==$start)
 {
-echo '<img style="width: 1px; height: 50px;" src="/images/separador.png"/><hr class="horiz_separator" /> </li>';
+echo '<img style="width: 0.08em; height: 3em;" src="/images/separador.png"/><hr class="horiz_separator" /> </li>';
 }
 else
 {
